@@ -1,6 +1,6 @@
 import { Grid, Card, Tabs, Typography, Tab, Box } from '@mui/material';
 import { useState } from 'react';
-import Pic1 from '../../../images/pic1.png'
+import Pic1 from '../../../images/pic1.jpg'
 import Registration from './Registration';
 import UserLogin from './UserLogin';
 import { ShoppingBag } from '@mui/icons-material';
@@ -48,9 +48,9 @@ const LoginReg = () => {
               <Registration />
             </TabPanel>
           </Box>
-          <Box textAlign='center' sx={{ mt: 2 }}>
-            <ShoppingBag sx={{ color: 'purple', fontSize: 100 }} />
-            <Typography variant='h5' sx={{ fontWeight: 'bold' }}>Geek-Shop</Typography>
+          <Box textAlign='center' sx={{ mt: 1 }}>
+            <ShoppingBag sx={{ color: '#4a56f2', fontSize: 100 }} />
+            <Typography variant='h5' sx={{ fontWeight: 'bold' }}>Shop-Here</Typography>
           </Box>
         </Card>
       </Grid>
